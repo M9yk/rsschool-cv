@@ -1,0 +1,77 @@
+header {
+  position: absolute;
+  width: 1440px;
+  height: 90px;
+  background-color: #f2785c;
+  background: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+header .logotip {
+  position: absolute;
+  left: 120px;
+  top: 30px;
+}
+header .textlogo {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header p {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+header .navigation .hug {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 21px;
+  gap: 42px;
+  list-style: none;
+  position: absolute;
+  width: 527px;
+  height: 30px;
+  left: 494px;
+}
+header .navigation .navname {
+  color: #ffffff;
+  font-family: "Red Hat Text", sans-serif;
+
+  line-height: 21px;
+  font-size: 16px;
+
+  top: 30px;
+}
+header .login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px, 30px, 10px, 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 103px;
+  height: 41px;
+  left: 1216px;
+  top: 25px;
+
+  background: #0d606f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  color: white;
+  border-color: #0d606f;
+
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
