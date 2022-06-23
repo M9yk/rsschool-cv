@@ -1,35 +1,77 @@
-header {
+.main {
   position: absolute;
-  width: 1440px;
-  height: 90px;
-  background-color: #f2785c;
-  background: rgba(242, 120, 92, 0.7);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.first {
+  position: absolute;
+  width: 100%;
+  height: 765px;
+  left: 0px;
+  top: 0px;
+
+  background-image: url(bckimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
 }
-header .logotip {
-  position: absolute;
-  left: 120px;
-  top: 30px;
-}
-header .textlogo {
-  position: absolute;
-  width: 180px;
-  height: 30px;
-  left: 156px;
+.first .bar {
+  width: 100%;
+  height: 90px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  background: rgba(242, 120, 92, 0.7);
 }
-header p {
+
+.main .header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: flex-start;
+}
+.first .header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.header .logo {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  left: 120px;
+}
+.header .textlogo {
+  margin: 0px;
+  top: 25px;
+  position: relative;
+  height: 31px;
   font-family: "Magra";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 39px;
+  left: 6px;
   color: #ffffff;
 }
-
-header .navigation .hug {
+.header .logotip {
+  position: relative;
+  top: 30px;
+}
+.header .navigation .hug {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -37,11 +79,11 @@ header .navigation .hug {
   gap: 42px;
   list-style: none;
   position: absolute;
-  width: 527px;
+  width: 600px;
   height: 30px;
   left: 494px;
 }
-header .navigation .navname {
+.header .navigation .navname {
   color: #ffffff;
   font-family: "Red Hat Text", sans-serif;
 
@@ -73,5 +115,92 @@ header .login {
 
   font-family: "Red Hat Text", sans-serif;
   font-size: 16px;
+  text-align: center;
+}
+.main .searchbox {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 675px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.first .title {
+  position: relative;
+  height: 422px;
+  width: 892px;
+  margin: 0;
+  left: 120px;
+  top: 32px;
+
+  border-radius: nullpx;
+
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.first .description {
+  position: absolute;
+  margin: 0;
+  width: 740px;
+  height: 24px;
+  left: 120px;
+  top: 256px;
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: white;
+}
+.first .searchbar {
+  margin-left: 120px;
+  margin-top: -90px;
+  height: 95px;
+  width: 892px;
+
+  border-radius: 16px;
+  background: #ffffffb2;
+  display: flex;
+  align-items: center;
+}
+.searchbar .arcticle {
+  position: relative;
+  left: 41px;
+  font-family: "Aleo";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f2785c;
+}
+.searchbar .start {
+  position: relative;
+  height: 59px;
+  width: 228px;
+  border-radius: 10px;
+  margin: 0px;
+  left: 350px;
+  background: #0d606f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  color: white;
+  border-color: #0d606f;
+
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 24px;
   text-align: center;
 }
