@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.first {
+.preview {
   width: 100%;
 
   left: 0px;
@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .bar {
   width: 100%;
   height: 90px;
@@ -168,12 +169,14 @@
   font-size: 24px;
   text-align: center;
 }
-.second {
+.steps {
   width: 100%;
   background: white;
   color: black;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .area {
   width: 1440px;
@@ -197,7 +200,7 @@
 
   color: #f2785c;
 }
-.steps {
+.listofsteps {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -226,7 +229,7 @@
   text-align: left;
   color: #0d606f;
 }
-.third {
+.destinations {
   width: 100%;
   background: white;
   color: black;
@@ -379,7 +382,7 @@
   line-height: 32px;
   color: white;
 }
-.four {
+.stories {
   width: 100%;
 
   display: flex;
@@ -413,7 +416,7 @@
   flex-direction: column;
   align-items: center;
 }
-.stories {
+.listofstories {
   width: 1440px;
   display: flex;
   flex-direction: row;
@@ -495,4 +498,8 @@
 .youtube {
   margin-left: 24.12px;
   margin-right: 24.12px;
+}
+.userlink {
+  text-decoration: none;
+  color: black;
 }
