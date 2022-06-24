@@ -60,23 +60,28 @@
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
+  width: 180px;
 
   color: #ffffff;
 }
-
+.navigation {
+  margin-left: 158px;
+  width: 527px;
+}
 .hug {
   list-style: none;
   display: flex;
   flex-direction: row;
   padding: 0px;
-  margin-left: 158px;
   gap: 42px;
 }
 .navname {
-  color: #ffffff;
-  font-family: "Red Hat Text", sans-serif;
-  line-height: 21px;
+  font-family: "Red Hat Text";
   font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: white;
 }
 .login {
   margin-left: 196px;
@@ -146,6 +151,7 @@
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
+
   margin-left: 41px;
   color: #f2785c;
 }
@@ -493,8 +499,12 @@
   color: white;
 }
 .social {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
   margin-left: 329.4px;
   margin-right: 123.54;
+  padding: 0;
 }
 .youtube {
   margin-left: 24.12px;
