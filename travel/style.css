@@ -279,7 +279,7 @@
   top: 0px;
   border-radius: 16px;
 
-  background-image: url(images/SPAIN.svg);
+  background-image: url(images/SPAIN.jpg);
 
   display: flex;
   align-items: flex-end;
@@ -300,7 +300,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  background-image: url(images/JAPAN.svg);
+  background-image: url(images/JAPAN.jpg);
 
   display: flex;
   align-items: flex-end;
@@ -320,7 +320,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
-  background-image: url(images/USA.svg);
+  background-image: url(images/USA.jpg);
 
   display: flex;
   align-items: flex-end;
@@ -409,7 +409,7 @@
 }
 .area4 {
   width: 100%;
-  background-image: url(images/background4.svg);
+  background-image: url(images/backgroundimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
