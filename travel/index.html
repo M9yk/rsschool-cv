@@ -11,6 +11,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <link href="http://fonts.cdnfonts.com/css/magra" rel="stylesheet" />
 
     <link
@@ -24,6 +28,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="reset.css" />
+    <script src="index.js"></script>
   </head>
 
   <body class="main">
@@ -36,17 +41,23 @@
           </div>
           <nav class="navigation">
             <ul class="hug">
-              <li><span class="navname">How It Works</span></li>
-              <li><span class="navname">Plan Your Trip</span></li>
-              <li><span class="navname">Destination</span></li>
-              <li><span class="navname">Travel Stories</span></li>
+              <li>
+                <a class="navname" href="#h1">How It Works</a>
+              </li>
+              <li>
+                <a class="navname" href="#plan__trip">Plan Your Trip</a>
+              </li>
+              <li><a class="navname" href="#destinations">Destinations</a></li>
+              <li><a class="navname" href="#stories">Travel Stories</a></li>
             </ul>
           </nav>
-          <button class="login" name="login">Login</button>
+          <div class="loginbutton">
+            <button class="login" name="login">Login</button>
+          </div>
         </header>
       </div>
       <div class="searchbox">
-        <div class="title">Explore the beauty of the World</div>
+        <h1 id="h1" class="title">Explore the beauty of the World</h1>
         <span class="description"
           >Receive personalized recommendations for countries, hotels,
           activities and more</span
@@ -59,31 +70,31 @@
     </section>
     <section class="steps">
       <div class="area">
-        <h2 class="title2">3 STEPS TO THE PERFECT TRIP</h2>
+        <h2 class="title2" id="plan__trip">3 STEPS TO THE PERFECT TRIP</h2>
         <div class="listofsteps">
-          <div class="step">
+          <div class="step1">
             <div class="zalivka">
               <img class="stepimg" src="images/bike.svg" alt="bike" />
             </div>
             <span class="steptitle">Tell us what you want to do</span>
           </div>
-          <div class="step">
+          <div class="step2">
             <div class="zalivka">
               <img class="stepimg" src="images/calendar.svg" alt="calendar" />
             </div>
-            <span class="steptitle">Tell us what you want to do</span>
+            <span class="steptitle">Share us preferable dates </span>
           </div>
-          <div class="step">
+          <div class="step3">
             <div class="zalivka">
               <img class="stepimg" src="images/plane.svg" alt="plane" />
             </div>
-            <span class="steptitle">Tell us what you want to do</span>
+            <span class="steptitle">We will give you recommendations</span>
           </div>
         </div>
       </div>
     </section>
     <section class="destinations">
-      <h2 class="title3">POPULAR DESTINATIONS</h2>
+      <h2 id="destinations" class="title3">POPULAR DESTINATIONS</h2>
       <div class="kartinki">
         <div class="cntimg1"><span class="cnt">SPAIN</span></div>
         <div class="cntimg2"><span class="cnt">JAPAN</span></div>
@@ -101,12 +112,12 @@
       </button>
     </section>
     <section class="stories">
-      <h2 class="title4">TRAVEL STORIES</h2>
+      <h2 id="stories" class="title4">TRAVEL STORIES</h2>
       <div class="area4">
         <div class="blend4">
           <div class="listofstories">
-            <img class="img" src="images/firstimg.jpg" alt="nature" />
-            <div class="storie">
+            <img class="img1" src="images/firstimg.jpg" alt="nature" />
+            <div class="storie1">
               <span class="titlestorie">10 Photos of Attractive Thailand</span>
               <span class="text"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -123,8 +134,8 @@
             </div>
           </div>
           <div class="listofstories">
-            <img class="img" src="images/secondimg.jpg" alt="nature" />
-            <div class="storie">
+            <img class="img2" src="images/secondimg.jpg" alt="nature" />
+            <div class="storie2">
               <span class="titlestorie">Canyonlands National Park, Utah</span>
               <span class="text"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -141,8 +152,8 @@
             </div>
           </div>
           <div class="listofstories">
-            <img class="img" src="images/thirdimg.jpg" alt="nature" />
-            <div class="storie">
+            <img class="img2" src="images/thirdimg.jpg" alt="nature" />
+            <div class="storie2">
               <span class="titlestorie">I left my heart in the Mountains!</span>
               <span class="text"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -159,8 +170,8 @@
             </div>
           </div>
           <div class="listofstories">
-            <img class="img" src="images/fourimg.jpg" alt="nature" />
-            <div class="storie">
+            <img class="img2" src="images/fourimg.jpg" alt="nature" />
+            <div class="storie2">
               <span class="titlestorie">The Longest journey in my life!</span>
               <span class="text"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
