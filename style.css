@@ -165,3 +165,28 @@
     font-size: 1.2em;
     font-weight: 500;
   }
+  .footer {
+    grid-area: footer;
+    background: white;
+    height: 60px;
+  }
+  .footer .git {
+    position: relative;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+  }
+  .footer .year {
+    position: relative;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+  }
+  .footer .logo {
+    position: relative;
+    margin: 10px 0px 0 20px;
+    width: 10%;
+    height: 10%;
+  }
