@@ -112,3 +112,56 @@
     font-weight: 500;
     padding-left: 30px;
   }
+  .container .right_side {
+    position: relative;
+    padding: 20px;
+    background-color: lightgray;
+    grid-area: about;
+  }
+  .aboutme {
+    margin-bottom: 50px;
+  }
+  .aboutme p {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+  .title2 {
+    color: rgb(0, 36, 136);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  .aboutme ul {
+    position: relative;
+  }
+  .aboutme ul li {
+    color: rgb(0, 36, 136);
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+  .aboutme .percent {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: greenyellow;
+    display: block;
+    margin-top: 10px;
+  }
+  .aboutme .percent span {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: skyblue;
+  }
+  .aboutme a {
+    text-decoration: none;
+    position: relative;
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .aboutme span {
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
