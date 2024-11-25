@@ -13,3 +13,22 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 * Sql
 * Git
 * Basic Python
+
+## __Code Example__
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+## __Expirience__
+
+## __Education__
+* __University__: ETU"LETI" Saint Petersburg Electrotechnical University
+* __Courses__:
+    + [Пакет SQL курсов](https://stepik.org/course/61247/promo)
+    + ["Поколение Python": курс для начинающих](https://stepik.org/course/58852/promo)
+## __English__
+__B1__    
