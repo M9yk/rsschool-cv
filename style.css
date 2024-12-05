@@ -1,0 +1,192 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1020px;
+    background: skyblue;
+    display: grid;
+    grid-template-columns: 2.5fr 4fr;
+    margin: 30px;
+    grid-template-areas:
+      "aside about"
+      "footer footer";
+  }
+  .container .left_side {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(0, 36, 136);
+    grid-area: aside;
+  }
+  .profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .profile .img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profile .img img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .profile h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .profile span {
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    border-top: 2px solid grey;
+  }
+  .contacts ul {
+    position: relative;
+  }
+  .contacts ul li {
+    position: relative;
+    list-style: none;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+  .contacts ul li .icon {
+    position: relative;
+    font-size: 1em;
+    color: coral;
+  }
+  .contacts ul li span {
+    color: white;
+    font-weight: 500;
+  }
+  .education h5 {
+    color: coral;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .education h4 {
+    color: white;
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+  .hobbies ul {
+    position: relative;
+  }
+  .hobbies ul li {
+    position: relative;
+    list-style: none;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+  .hobbies ul li .icon {
+    position: relative;
+    font-size: 2em;
+    color: coral;
+    display: inline-block;
+  }
+  .hobbies ul li .text {
+    color: white;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .container .right_side {
+    position: relative;
+    padding: 20px;
+    background-color: lightgray;
+    grid-area: about;
+  }
+  .aboutme {
+    margin-bottom: 50px;
+  }
+  .aboutme p {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+  .title2 {
+    color: rgb(0, 36, 136);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  .aboutme ul {
+    position: relative;
+  }
+  .aboutme ul li {
+    color: rgb(0, 36, 136);
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+  .aboutme .percent {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: greenyellow;
+    display: block;
+    margin-top: 10px;
+  }
+  .aboutme .percent span {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: skyblue;
+  }
+  .aboutme a {
+    text-decoration: none;
+    position: relative;
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .aboutme span {
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .footer {
+    grid-area: footer;
+    background: white;
+    height: 60px;
+  }
+  .footer .git {
+    position: relative;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+  }
+  .footer .year {
+    position: relative;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+  }
+  .footer .logo {
+    position: relative;
+    margin: 10px 0px 0 20px;
+    width: 10%;
+    height: 10%;
+  }
